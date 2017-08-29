@@ -1,0 +1,19 @@
+#include<studio.h>
+#include<conio.h>
+main()
+{
+int a;
+printf("\n Enter the any number a=");
+scanf("%d",&a);
+if(a>0)
+{
+  primtf("\n The number is positive");
+}
+else if(a<0)
+{
+printf("\n The number is negative");
+}
+else 
+printf("\n The number is zero");
+getch();
+}
